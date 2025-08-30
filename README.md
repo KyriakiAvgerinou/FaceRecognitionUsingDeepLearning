@@ -11,17 +11,17 @@ While the CNN struggles to generalize and shows signs of overfitting, the Mobile
 Originally, this was one single, long Colab notebook file.
 Because it could not be rendered on GitHub, it was split into the following 6 focused sub-notebooks:
 
-- Part I — Collect Input Data,
+- [Part I — Collect Input Data](Notebooks/PartI_Collect_Input_Data.ipynb),
 
-- Part II — Inspect, Clean, and Preprocess Input Data,
+- [Part II — Inspect, Clean, and Preprocess Input Data](Notebooks/PartII_Inspect_Clean_Preprocess_Input_Data.ipynb),
 
-- Part III — Prepare Input Data for the Model,
+- [Part III — Prepare Input Data for the Model](Notebooks/PartIII_Prepare_Input_Data_for_the_Model.ipynb),
 
-- Part IV-A — Build CNN from Scratch,
+- [Part IV-A — Build CNN from Scratch](Notebooks/PartIV_A_Build_CNN_from_scratch.ipynb),
 
-- Part IV-B — Use Transfer Learning,
+- [Part IV-B — Use Transfer Learning](Notebooks/PartIV_B_Use_Transfer_Learning.ipynb),
 
-- Part V — Resources.
+- [Part V — Resources](Notebooks/PartV_Resources.ipynb).
 
 ## Input Data
 For this project we used Kaggle's Face Recognition Dataset (https://www.kaggle.com/datasets/vasukipatel/face-recognition-dataset/data).

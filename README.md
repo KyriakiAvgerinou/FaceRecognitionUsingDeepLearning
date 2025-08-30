@@ -1,15 +1,14 @@
 # Face Recognition using Deep Learning:
-## Implementing a CNN from Scratch vs. Using Transfer Learning
+## Implementing a CNN from Scratch vs. Transfer Learning
 
 ## Project Overview
 This project explores the problem of Face Recognition using Deep Learning.
 The objective is to build a model that can identify individuals from a predefined group of people through facial images.
 We approach the problem as a multi-class image classification problem.
-For our models, we use a dataset of 20 people with 80 images each.
-Two different approaches were implemented and compared here: a custom Convolutional Neural Network (CNN) built from scratch, and a transfer learning solution with MobileNetV2 and fine-tuning. Both models were trained and evaluated on a dataset preprocessed using MTCNN for face detection and resized to 224×224 pixels. Data normalization and augmentation were applied to improve generalization.
-While the CNN struggles to generalize and shows signs of overfitting, the MobileNetV2 model outperformed, reaching a validation accuracy of 81%, showing strong generalization, reliability and robustness.
+Two different approaches are implemented and compared here: a custom Convolutional Neural Network (CNN) built from scratch, and a transfer learning solution with MobileNetV2 and fine-tuning. We use MTCNN for face detection. Data normalization and augmentation are applied to improve generalization.
+While the CNN struggles to generalize and shows signs of overfitting, the MobileNetV2 model outperforms, reaching a validation accuracy of 81%, showing strong generalization, reliability and robustness.
 
-Originally, this was a single, long Colab notebook file.
+Originally, this was one single, long Colab notebook file.
 Because it could not be rendered on GitHub, it was split into the following 6 focused sub-notebooks:
 
 - Part I — Collect Input Data,
@@ -20,7 +19,7 @@ Because it could not be rendered on GitHub, it was split into the following 6 fo
 
 - Part IV-A — Build CNN from Scratch,
 
-- Part IV-B — Use Transfer Learning (MobileNetV2 + Fine-Tuning),
+- Part IV-B — Use Transfer Learning,
 
 - Part V — Resources.
 
